@@ -13,7 +13,7 @@
     <!--intro section-->
     <div class="h-1/2 lg:h-screen bg-gradient-to-br from-purple-500 to-cyan-400 via-pink-500 relative">
         <!--navbar-->
-        <nav class="w-full fixed top-0 bg-gray-300 ">
+        <nav class="w-full sticky top-0 bg-gray-300 ">
             <div class="container mx-auto py-5 flex items-center justify-between">
                 <div>
                     <h1 class="text-3xl font-extrabold lg:text-5xl">FoodGasm</h1>
@@ -74,13 +74,301 @@
             </div>
 
         </div>
+        <div
+            class=" mt-6  mb-6 md:mt-6 lg:mt-16 lg:mb-10 xl:mt-4 text-center md:text-center lg:text-left lg:ml-28 sm:mt-6 ">
+            <button type="button"
+                class="px-6 py-2 text-lg border-solid rounded-3xl bg-purple-700 text-black font-bold hover:bg-zinc-100 font-sans focus:ring focus:ring-neutral-50 shadow-lg shadow-blue-500/50 ">Order
+                now ➡️</button>
+            <button type="button"
+                class="px-6 py-2 text-lg border-solid rounded-3xl bg-purple-700 text-black font-bold hover:bg-zinc-100 font-sans focus:ring focus:ring-neutral-50 shadow-lg shadow-blue-500/50">Book
+                a Table 📃
+            </button>
+        </div>
     </div>
+
+
+    <div class="bg-gray-200 mt-4 mb-6 lg:mt-16 xl:mt-8 " id="MENU">
+        <h4 class="font-bold pt-4 pb-2 border-b border-gray-100 text-2xl"> Latest Recipes</h4>
+
+        <div class="mt-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10 mx-4">
+            <!-- cards go here -->
+            <div class="relative overflow-hidden">
+                <div class="card bg-white rounded-3xl overflow-hidden shadow-lg relative">
+                    <img src="img/stirfry.jpg" alt="" class="w-full h-32 sm:h-48 object-cover">
+                    <div
+                        class="absolute h-full w-full items-center justify-center bg-black/50 flex  -bottom-10  transition-all duration-300 hover:top-10 opacity-0 hover:opacity-100">
+
+                        <button class="bg-black text-white py-2 px-5 ">Add to cart 🛒</button>
+
+                    </div>
+                    <div class="m-4 text-center ">
+                        <!-- cad title -->
+                        <p class="font-bold text-2xl">Stir-fry Spaghetti</p>
+                        <p class="font-bold text-slate-500 text-3xl mt-4 bg-zinc-200 p-1 rounded-lg"> <ion-icon
+                                name="logo-usd" class="text-2xl"></ion-icon>20</p>
+                    </div>
+                    <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
+                        <span>⌛25 mins</span>
+                    </div>
+                </div>
+            </div>
+            <div class="relative overflow-hidden">
+                <div class="card  bg-white rounded-3xl overflow-hidden shadow-lg relative">
+                    <img src="img/10.JPG" alt="" class="w-full h-32 sm:h-48 object-fill">
+                    <div
+                        class="absolute h-full w-full items-center justify-center bg-black/50 flex  -bottom-10  transition-all duration-300 hover:top-10 opacity-0 hover:opacity-100">
+
+                        <button class="bg-black text-white py-2 px-5 ">Add to cart 🛒</button>
+
+                    </div>
+                    <div class="m-4 text-center">
+                        <!-- cad title -->
+                        <p class="font-bold text-2xl">Chicken Shawarma</p>
+                        <p class="font-bold text-slate-500 text-3xl mt-4 bg-zinc-200 p-1 rounded-lg"> <ion-icon
+                                name="logo-usd" class="text-2xl"></ion-icon>15</p>
+
+                    </div>
+                    <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
+                        <span>⌛25 mins</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overflow-hidden relative">
+                <div class="card  bg-white rounded-3xl overflow-hidden shadow-lg relative">
+                    <img src="img/burgers.webp" alt="" class="w-full h-32 sm:h-48 object-cover">
+                    <div
+                        class="absolute h-full w-full items-center justify-center bg-black/50 flex  -bottom-10  transition-all duration-300 hover:top-10 opacity-0 hover:opacity-100">
+
+                        <button class="bg-black text-white py-2 px-5 ">Add to cart 🛒</button>
+
+                    </div>
+                    <div class="m-4 text-center">
+                        <!-- cad title -->
+                        <p class="font-bold text-2xl">3-in-1 Chicken Burger</p>
+                        <p class="font-bold text-slate-500 text-3xl mt-4 bg-zinc-200 p-1 rounded-lg"> <ion-icon
+                                name="logo-usd" class="text-2xl"></ion-icon>28</p>
+                    </div>
+                    <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
+                        <span>⌛30 mins</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
+
+
+    <div class="text-center mt-10 mb-16 ">
+        <button type="button"
+            class="px-6 py-2 text-lg border-solid rounded-3xl bg-gray-400 text-black font-bold hover:bg-zinc-100 font-sans focus:ring focus:ring-neutral-50 shadow-lg shadow-blue-500/50">Load
+            More </button>
+    </div>
+
+
+    <!-- most popular -->
+    <div class="bg-gray-200 mt-4">
+
+        <h4 class="font-bold mt-4 mb-6 pb-2 border-b border-gray-100 text-2xl"> Most Popular</h4>
+
+        <div class="mt-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10 mx-4">
+
+            <!-- cards go here -->
+            <div class="relative overflow-hidden">
+                <div class="card bg-white rounded-3xl overflow-hidden shadow-lg relative">
+                    <img src="img/jollof3.jpeg" alt="" class="w-full h-32 sm:h-48 object-cover">
+                    <div
+                        class="absolute h-full w-full items-center justify-center bg-black/50 flex  -bottom-10  transition-all duration-300 hover:top-10 opacity-0 hover:opacity-100">
+
+                        <button class="bg-black text-white py-2 px-5 ">Add to cart 🛒</button>
+
+                    </div>
+                    <div class="m-4 text-center ">
+                        <!-- cad title -->
+                        <p class="font-bold text-2xl">Jollof-rice & Chicken</p>
+                        <p class="font-bold text-slate-500 text-3xl mt-4 bg-zinc-200 p-1 rounded-lg"> <ion-icon
+                                name="logo-usd" class="text-2xl"></ion-icon>20</p>
+                    </div>
+                    <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
+                        <span>⌛30 mins</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="overflow-hidden relative">
+                <div class="card bg-white rounded-3xl overflow-hidden shadow-lg relative">
+                    <img src="img/8.JPG" alt="" class="w-full h-32 sm:h-48 object-cover">
+                    <div
+                        class="absolute h-full w-full items-center justify-center bg-black/50 flex  -bottom-10  transition-all duration-300 hover:top-10 opacity-0 hover:opacity-100">
+
+                        <button class="bg-black text-white py-2 px-5 ">Add to cart 🛒</button>
+
+                    </div>
+                    <div class="m-4 text-center ">
+                        <!-- cad title -->
+                        <p class="font-bold text-2xl">Beef Burger,Fries & Soda </p>
+                        <p class="font-bold text-slate-500 text-3xl mt-4 bg-zinc-200 p-1 rounded-lg">
+                            <ion-icon name="logo-usd" class="text-2xl"></ion-icon>30
+                        </p>
+                    </div>
+                    <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
+                        <span>⌛40 mins</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative overflow-hidden">
+                <div class="relative overflow-hidden">
+                    <div class="card bg-white rounded-3xl overflow-hidden shadow-lg relative">
+                        <img src="img/pancake.jpg" alt="" class="w-full h-32 sm:h-48 object-cover">
+                        <div
+                            class="absolute h-full w-full items-center justify-center bg-black/50 flex  -bottom-10  transition-all duration-300 hover:top-10 opacity-0 hover:opacity-100">
+
+                            <button class="bg-black text-white py-2 px-5 ">Add to cart 🛒</button>
+
+                        </div>
+                        <div class="m-4 text-center ">
+                            <!-- cad title -->
+                            <p class="font-bold text-2xl">Pancakes</p>
+                            <p class="font-bold text-slate-500 text-3xl mt-4 bg-zinc-200 p-1 rounded-lg"> <ion-icon
+                                    name="logo-usd" class="text-2xl"></ion-icon>25
+                            </p>
+                        </div>
+                        <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
+                            <span>⌛45 mins</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="text-center mt-10 mb-16 ">
+        <button type="button"
+            class="px-6 py-2 text-lg border-solid rounded-3xl bg-gray-400 text-black font-bold hover:bg-zinc-100 font-sans focus:ring focus:ring-neutral-50 shadow-lg shadow-blue-500/50">Load
+            More </button>
+    </div>
+
+
+
+    <footer id="CONTACT">
+        <div class="p-10 bg-gray-700 text-gray-200">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+                    <div class="mb-5 ">
+                        <h4 class="text-2xl pb-4">Company</h4>
+                        <p class="text-gray-500 ">
+                            Lorem ipsum, dolor sit amet consectetur <br>
+                            adipisicing elit. Rerum neque totam <br>
+                            voluptates distinctio recusandae minus! <br> <br>
+                            <strong>phone:</strong> +234 8090709804 <br>
+                            <strong>Email:</strong> habibullahamza@gmail.com <br>
+                        </p>
+                    </div>
+                    <div class="mb-5 ">
+                        <h4 class="text-2xl pb-4">links</h4>
+                        <ul class="text-gray-500">
+                            <li class="pb-4"><ion-icon name="chevron-forward-circle  class="
+                                    text-yellow-500"></ion-icon> <a href="#" class="hover:text-yellow-500">Home</a>
+                            </li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-circle  class="
+                                    text-yellow-500"></ion-icon><a href="#" class="hover:text-yellow-500">About</a>
+                            </li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-circle  class="
+                                    text-yellow-500"></ion-icon><a href="#" class="hover:text-yellow-500">Services</a>
+                            </li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-circle  class="
+                                    text-yellow-500"></ion-icon><a href="#" class="hover:text-yellow-500">Terms
+                                    of services</a> </li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-circle  class="
+                                    text-yellow-500"></ion-icon><a href="#" class="hover:text-yellow-500">Privacy
+                                    poliicy</a> </li>
+                        </ul>
+                    </div>
+                    <div class="mb-5 ">
+                        <h4 class="text-2xl pb-4">Our Services</h4>
+                        <ul class="text-gray-500">
+                            <li class="pb-4"><ion-icon name="chevron-forward-circle"
+                                    class="text-yellow-500"></ion-icon><a href="#" class="hover:text-yellow-500">
+                                    Lorem, ipsum dolor.</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-circle"
+                                    class="text-yellow-500"></ion-icon><a href="#" class="hover:text-yellow-500">Lorem,
+                                    ipsum dolor.</a> </li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-circle"
+                                    class="text-yellow-500"></ion-icon><a href="#" class="hover:text-yellow-500">
+                                    Lorem, ipsum dolor.</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-circle"
+                                    class="text-yellow-500"></ion-icon><a href="#" class="hover:text-yellow-500">
+                                    Lorem, ipsum dolor.</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-circle"
+                                    class="text-yellow-500"></ion-icon><a href="#" class="hover:text-yellow-500">
+                                    Lorem, ipsum dolor.</a></li>
+                        </ul>
+                    </div>
+                    <div class="mb-5 ">
+
+                        <h4 class="text-2xl pb-4">Join our Newsletter</h4>
+                        <p class="text-gray-500 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+                            maiores.</p>
+
+                        <form class="flex flex-row flex-wrap ">
+                            <input type="text" class="text-gray-500 w-2/3 p-2 focus:border-yellow-500"
+                                placeholder="email@example.com">
+                            <button class="p-2 w-1/3 bg-yellow-500 text-white hover:bg-yellow-600 ">Subscribe</button>
+                        </form>
+
+                        <div class="mt-8 text-center ">
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 mx-1 inline-block pt-1"><ion-icon
+                                    name="logo-facebook"></ion-icon></a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 mx-1 inline-block pt-1"><ion-icon
+                                    name="logo-instagram"></ion-icon></a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 mx-1 inline-block pt-1"><ion-icon
+                                    name="logo-twitter"></ion-icon></a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 mx-1 inline-block pt-1"><ion-icon
+                                    name="logo-skype"></ion-icon></a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 mx-1 inline-block pt-1"><ion-icon
+                                    name="logo-linkedin"></ion-icon></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="p-10 bg-gray-900 text-gray-200">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
+
+                    <div class="mb-5 pb-4 text-xl ">
+                        <p>Copyright © 2022. | FoodGasm <br> By Hamza Habibullah </p>
+                    </div>
+
+                    <div class="mb-4 text-xl">
+                        <ion-icon name="time-outline" class="text-5xl border-2 bg-yellow-600"></ion-icon>
+                        <p>Opening Hours</p>
+                        <p>Mon-Sat (8.00 - 6.00)</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
 
 
 
     <script src="app.js"></script>
     <script src="./autotyping.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
